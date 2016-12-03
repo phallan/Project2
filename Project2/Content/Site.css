@@ -43,7 +43,8 @@ select,
     color:#FFFFCC;
 }
 .body-content{
-    background-color:transparent;
+    background-color:#FFFFCC;
+    opacity:0.5;
     border:thin;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
