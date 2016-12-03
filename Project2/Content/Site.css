@@ -43,7 +43,7 @@ select,
     color:#FFFFCC;
 }
 .body-content{
-    background-color:#7c3722;
+    background-color:transparent;
     border:thin;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
