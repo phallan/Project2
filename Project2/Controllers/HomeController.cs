@@ -10,6 +10,7 @@ namespace Project2.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "";
             return View();
         }
 
@@ -24,7 +25,8 @@ namespace Project2.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message1 = "Whether a comment from a recent visit to one of our restaurants or a question ... If you don't find what you need on our brand websites, please contact us so we can address your needs.";
+            ViewBag.Message2 = "";
 
             return View();
         }
